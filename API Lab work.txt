@@ -1,0 +1,56 @@
+PART 1:
+Answer 1: https://swapi.dev/api/people/4 (It did not let me get more specific than that. Every attempt returned either the whole object anyway, or a 404 error.)
+
+Answer 2: https://swapi.dev/api/planets/2/
+(See inside the parentesis above.)
+
+Answer 3: https://swapi.dev/api/starships/10
+
+Answer 4: https://swapi.dev/api/people/2/
+https://swapi.dev/api/species/2/
+
+Answer 5: https://swapi.dev/api/people/?search=Obi-Wan Kenobi
+                https://swapi.dev/api/people/10/
+                https://swapi.dev/api/films/1/
+                https://swapi.dev/api/films/2/
+                https://swapi.dev/api/films/3/
+                https://swapi.dev/api/films/4/
+                https://swapi.dev/api/films/5/
+                https://swapi.dev/api/films/6/
+
+Answer 6:   https://swapi.dev/api/starships/?search=Millennium Falcon
+
+
+
+
+
+
+PART 2:
+
+
+Answer 1: Post requies a body and it is expecting a text inpuut.
+
+Answer 2: Returns an array of all posts
+
+Answer 3: [Delete] https://practiceapi.devmountain.com/api/posts/555
+
+Answer 4: 200 "Good", and 409 "Request query is missing required text property."
+
+Answer 5: https://practiceapi.devmountain.com/api/posts
+{
+  "text": "Dalton James Carter-Gottenbos (DJ)"
+}
+
+Answer 6: https://practiceapi.devmountain.com/api/posts?id=1356
+  "text": "Flame Colors (Red)"
+
+Answer 7: https://practiceapi.devmountain.com/api/posts/filter?text=blue
+
+Answer 8: application/json; charset=utf-8
+
+Answer 9: Request was missing req.query.id or req.body.text
+
+Answer 10: It displays EVERYTHING anyway, it was not given a parameter to make it more specific.
+
+
+        
