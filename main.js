@@ -16,6 +16,7 @@ function btnClicked() {
                  let newHead = document.createElement('h2')
                  newHead.textContent = name
                  body.appendChild(newHead)
+                 console.log('Checklist completed... TACCOM')
 
             })
         }
